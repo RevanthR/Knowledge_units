@@ -1,3 +1,25 @@
+#floating {  
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* margin-left: 30px; */
+    /* margin-top: 5px; */
+}
+@keyframes floating {
+from { transform: translate(10, 0px); }
+65%  { transform: translate(0px, 5px); }
+to   { transform: translate(0, 0px); }    
+}
+    
+html, body {  
+    overflow-x: hidden; 
+   }
+html {
+  scroll-behavior: smooth;
+   
+
+}
 .navbar{
     background: rgb(0,0,0,0.4);
     
@@ -339,4 +361,95 @@ footer .col-lg-4 button{
     color:white;
     padding:8px 20px;
 
+}
+/* CONTENT PAGE */
+.content{
+    font-family: 'Roboto';
+    padding:180px;
+    padding-bottom:100px;
+    background: url(../images/content_bg.png);
+    background-position: 20%;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+
+}
+.content .row {
+    display: block;
+}
+.content .row h1{
+    text-align: center;
+    color:white;
+}
+.content .row h3{
+    color:white;
+    padding:30px;
+    font-size:25px;
+    text-align: center;
+}
+.content span{
+    border-bottom:2px solid white;
+    padding-bottom: 10px ;
+}
+.m-text{
+    padding:10px;
+}
+.m-text p{
+    text-align: center;
+    padding:20px 130px;
+    color:#575757;
+    font-size:16px;
+    padding-bottom:0px;
+    line-height: 30px;
+    word-spacing: 1px;
+}
+.m-text img{
+    margin: 0px auto;
+    display: block;
+    height: 20px;
+}
+.strategy{
+    padding:20px;
+    font-family: 'Roboto';
+}
+.strategy h1{
+    padding:20px;
+    font-size:30px;
+}
+.strategy ul{
+    padding:20px;
+
+}
+.strategy ul .active{
+    padding-bottom:8px;
+    
+    border-bottom: 4px solid #FF004E;
+}
+.strategy ul a{
+    padding:10px;
+    color: black;
+    padding:10px 50px;
+    font-size:20px;
+    transition: font-size 1s;
+    border-right: 1px solid grey;
+
+    
+}
+.strategy ul a:hover{
+    text-decoration: none;
+   
+}
+.strategy .tab-content{
+    padding:40px;
+}
+.strategy .tab-content h1{
+    padding:0px;
+    margin-bottom:20px;
+}
+.strategy .tab-content p{
+    color: #575757;
+    padding-right:30px;
+    line-height: 30px;
+}
+.strategy img{
+    height:60px;
+    margin-right: 20px;
 }
