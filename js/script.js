@@ -1,11 +1,28 @@
-jQuery("input").each(function() {
-    // clear form field on focus and restore if empty
-        var default_value = this.value;
-        jQuery(this).focus(function(){
-        if(this.value == default_value) {this.value = '';}
-        });
-        jQuery(this).blur(function(){
-                if(this.value == '') {this.value = default_value;}
-        });
-    });
-});
+
+$(function(){
+    $('.tech').hover(function() {
+        
+      $('.tech').addClass('floater');
+    }, function() {
+      $('.tech').removeClass('floater');
+    })
+    
+})
+$(function(){
+    $('.tech1').hover(function() {
+        
+      $('.tech1').addClass('floater');
+    }, function() {
+      $('.tech1').removeClass('floater');
+    })
+    
+})
+$(function(){
+    $('.tech2').hover(function() {
+        
+      $('.tech2').addClass('floater');
+    }, function() {
+      $('.tech2').removeClass('floater');
+    })
+    
+})

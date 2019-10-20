@@ -3,41 +3,62 @@
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    /* margin-left: 30px; */
-    /* margin-top: 5px; */
 }
-@keyframes floating {
+@keyframes floating{
 from { transform: translate(10, 0px); }
 85%  { transform: translate(0px, 5px); }
 to   { transform: translate(0, 0px); }    
 }
-#floating1{  
+.floating1{  
     animation-name: floating1;
-    animation-duration: 9s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    /* margin-left: 30px; */
-    /* margin-top: 5px; */
 }
 @keyframes floating1 {
+    from { transform: translate(0, 225px); }
+    65%  { transform: translate(0px, -10px); }
+    to   { transform: translate(0, 225px); }    
+}
+
+.floating3{  
+    animation-name: floating3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating3 {
+    from { transform: translate(0, 225px); }
+    65%  { transform: translate(0px, -10px); }
+    to   { transform: translate(0, 225px); }    
+}
+/* @keyframes floating3 {
 from { transform: translate(0, -10px); }
 65%  { transform: translate(0px, 225px); }
 to   { transform: translate(0, -10px); }    
-}
-#floating2{  
+} */
+.floating2{  
     animation-name: floating2;
     animation-duration: 9s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    /* margin-left: 30px; */
-    /* margin-top: 5px; */
 }
+
 @keyframes floating2 {
-from { transform: translate(0, 225px); }
-65%  { transform: translate(0px, -10px); }
-to   { transform: translate(0, 225px); }    
+    from { transform: translate(0, 225px); }
+    65%  { transform: translate(0px, -10px); }
+    to   { transform: translate(0, 225px); }    
 }
-    
+.floater{
+    animation-name:floater;
+    animation-duration:2s;
+    animation-iteration-count:1;
+    animation-timing-function: ease-in-out;
+} 
+@keyframes floater{
+    from { transform: translate(0, 220px); }
+    60%  { transform: translate(0px, -10px); } 
+    }
 html, body {  
     overflow-x: hidden; 
    }
@@ -251,46 +272,41 @@ html {
     background-color: rgba(70, 70, 70, 0.25);
 }
 /*  */
-.form{
-    padding: 50px 150px;
-    background: whitesmoke;
+.form-sec{
+    background:whitesmoke;
+    padding:50px;
+    font-family: 'Roboto';
 }
-.form .row{
-    margin: 20px;
-
-}
-.form .row input{
-    padding:10px 140px;
-    padding-left:20px;
-    color: grey;
-    margin: 0px;
-    /* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16); */
-
-}
-.form textarea{
-    margin-right: 30px;
-    color: grey;
-}
-.form .col-lg-4{
-    padding: 0px;
-}
-.form h1{
+.form-sec h1{
     font-size:25px;
-    text-align: center;
-    margin:10px auto;
-    margin-bottom: 70px;
-    display: block;
+    text-align:center;
+    margin-bottom:40px;
 }
-.form span{
-    padding-bottom: 5px;
-    border-bottom:4px solid #FF0023;
+.form-sec span{
+    border-bottom: 4px solid #ff004e;
+    padding-bottom:5px;
 }
-.form .row button{
-    background: #FF0023;
+.form-sec .row{
+    padding:20px;
+}
+.form-sec .row input{
+    padding:10px 160px;
+    padding-left:15px;
+    color:grey;
+    margin:0px 15px;
+}
+.form-sec .row textarea{
+    margin: 0px 30px;
+    color:grey;
+}
+.form-sec .row button{
     padding:10px 30px;
-    margin: 10px auto ;
-    color: white;
+    color:white;
+    background:#FF004E;
+    margin:0px auto;
+    display:block;
 }
+/* Message line */
 .message{
     font-family: 'Roboto' ;
     padding:15px;
@@ -342,7 +358,6 @@ footer .row .col-lg-4 .col-lg-4 a{
 }
 footer .row .col-lg-4 .col-lg-8{
     padding:0px;
-    /* margin: 10px; */
 }
 
 footer .row .col-lg-4 .col-lg-8 h3{
@@ -367,15 +382,15 @@ footer .abt p{
 }
 footer .col-lg-4 h3{
     color:white;
-    margin:30px;
+    margin:20px;
     font-size:20px;
 }
 footer .col-lg-4 b{
     color: white;
-    margin:30px;
+    margin:20px;
 }
 footer .col-lg-4 input{
-    margin:30px;
+    margin:20px;
     margin-right:10px;
     padding:7px 80px;
     padding-left:10px;
@@ -490,9 +505,9 @@ footer .col-lg-4 button{
     text-align:center;
     font-size:25px;
     margin:20px auto;
-    /* margin-bottom:40px; */
-
-
+}
+.heart{
+    padding:30px 0px;
 }
 .heart span{
     border-bottom: 3px solid orangered;
@@ -501,12 +516,17 @@ footer .col-lg-4 button{
 
 .heart .row .col-lg-3{
     margin:0px 50px;
-    margin-bottom:200px;
-    padding: 60px 0px;
-    padding-top:0px;
+    margin-bottom:250px;
+    border:none;
+    padding:30px;
+    transition: border 2s;
 }
 .heart .row .col-lg-3:hover{
-    margin-bottom:0px ;
+    border:5px solid white;
+}
+.heart .row .col-lg-3:hover{
+    margin-bottom:0px;
+    transform: none;
 }
 .heart .row .col-lg-3 h1{
     padding:100px; 
@@ -514,19 +534,20 @@ footer .col-lg-4 button{
 .heart .row .col-lg-3 img{
     margin: 0px auto;
     display: block;
-    margin-bottom: 20px;
 }
 .heart .row .col-lg-3 span li{
     color:white;
     font-size:20px;
     padding:15px;
-    padding-left:90px;
-    text-align: left;
+    text-align:center;
+    list-style-type: none;
+    text-decoration: none;
 }
+
 .heart .row .col-lg-3 span{
-    display:none;
-    transition: 5s;
+    display: none;
 }
+
 .heart .row .col-lg-3:hover #cont{
     display: contents;
 }
@@ -535,8 +556,6 @@ footer .col-lg-4 button{
     padding:30px;
     padding-top:0px;
     font-size:20px;
-    /* text-align:center; */
     display: block;
-    margin:0px auto;
-    
+    margin:20px auto;
 }
