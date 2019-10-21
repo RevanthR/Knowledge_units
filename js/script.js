@@ -1,4 +1,9 @@
 
+$(".navbar-nav a").click(function(event) {
+  if (!$(this).parent().hasClass('dropdown'))
+      $(".navbar-collapse").collapse('hide');
+});
+
 $(function(){
     $('.tech').hover(function() {
         

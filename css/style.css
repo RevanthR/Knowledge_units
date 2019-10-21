@@ -59,17 +59,15 @@ to   { transform: translate(0, -10px); }
     from { transform: translate(0, 220px); }
     60%  { transform: translate(0px, -10px); } 
     }
+/* CSS Animation Part Above */
 html, body {  
     overflow-x: hidden; 
    }
 html {
   scroll-behavior: smooth;
-   
-
 }
 .navbar{
     background: rgb(0,0,0,0.4);
-    
 }
 .navbar .navbar-brand img{
     height: 70px;
@@ -88,7 +86,6 @@ html {
 .spec{
     background: transparent linear-gradient(180deg, rgba(255, 0, 35, 1) 0%, rgba(255, 0, 78, 1) 100%) 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
-
 }
 .main .carousel-inner{
     padding:200px;
@@ -146,7 +143,7 @@ html {
     padding:10px 40px;
 }
 .contact .col-lg-4{
-    background: #33333308;
+    background: whitesmoke;
     padding:50px;
 }
 .contact .col-lg-4 .col-lg-8{
@@ -169,7 +166,66 @@ html {
     height: 65px;
     margin: 10px auto;
 }
+/* Heart Section */
+.heart .row h1{
+    color:white;
+    text-align:center;
+    font-size:25px;
+    margin:20px auto;
+}
+.heart{
+    padding:30px 0px;
+}
+.heart span{
+    border-bottom: 3px solid orangered;
+    padding-bottom: 10px;
+}
 
+.heart .row .col-lg-3{
+    margin:0px 50px;
+    margin-bottom:250px;
+    border:none;
+    padding:30px;
+    transition: border 2s;
+}
+.heart .row .col-lg-3:hover{
+    border:5px solid white;
+}
+.heart .row .col-lg-3:hover{
+    margin-bottom:0px;
+    transform: none;
+}
+.heart .row .col-lg-3 h1{
+    padding:100px; 
+}
+.heart .row .col-lg-3 img{
+    margin: 0px auto;
+    display: block;
+}
+.heart .row .col-lg-3 span li{
+    color:white;
+    font-size:20px;
+    padding:15px;
+    text-align:center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.heart .row .col-lg-3 span{
+    display: none;
+}
+
+.heart .row .col-lg-3:hover #cont{
+    display: contents;
+}
+.heart p{
+    color:white;    
+    padding:30px;
+    padding-top:0px;
+    font-size:20px;
+    display: block;
+    margin:20px auto;
+}
 .clients-car{
     background-color:white;
     padding:60px;
@@ -500,62 +556,86 @@ footer .col-lg-4 button{
     height:100%;
     z-index:-1;
 }
-.heart .row h1{
-    color:white;
-    text-align:center;
-    font-size:25px;
-    margin:20px auto;
-}
-.heart{
-    padding:30px 0px;
-}
-.heart span{
-    border-bottom: 3px solid orangered;
-    padding-bottom: 10px;
-}
 
-.heart .row .col-lg-3{
-    margin:0px 50px;
-    margin-bottom:250px;
-    border:none;
-    padding:30px;
-    transition: border 2s;
+/* Responsive Stuff */
+
+@media screen and (max-width: 700px){
+
+.navbar  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-.heart .row .col-lg-3:hover{
-    border:5px solid white;
+.navbar .navbar-brand img{
+    height:55px;
+    padding:10px;
 }
-.heart .row .col-lg-3:hover{
-    margin-bottom:0px;
-    transform: none;
+.spec{
+    background:none;
 }
-.heart .row .col-lg-3 h1{
-    padding:100px; 
+.main .carousel-inner{
+    padding:70px;
+    background-position: 50% ;
+    padding-top:140px;
 }
-.heart .row .col-lg-3 img{
-    margin: 0px auto;
-    display: block;
+.main .carousel-inner .row{
+    padding:10px;
 }
-.heart .row .col-lg-3 span li{
-    color:white;
+.main .carousel-inner .row h1{
     font-size:20px;
-    padding:15px;
+    margin-bottom:20px;
+    
+}
+.main .carousel-inner .row p{
+    font-size:16px;
+}
+.main .carousel-inner .row button{
+    margin: 10px auto;
+    padding: 8px 20px;
+    font-size:13px;
+}
+.contact .col-lg-8{
+    padding:40px;
+}
+.contact .col-lg-8 h1{
+    font-size:25px;
+}
+.contact .col-lg-8 p{
+    padding:20px 0px;
+}
+.contact .col-lg-4{
+  padding:20px;
+}
+.contact .col-lg-4 .row{
+    margin:20px;
+}
+.contact .col-lg-4 h1{
+    margin:05px auto;
+    font-size:35px;
+    text-align: center;
+}
+.contact .col-lg-4 .col-lg-8 p{
     text-align:center;
-    list-style-type: none;
-    text-decoration: none;
+    font-size:18px;
 }
-
-.heart .row .col-lg-3 span{
-    display: none;
+.contact .col-lg-3 img{
+    display: block;
+    height: 70px;
 }
-
-.heart .row .col-lg-3:hover #cont{
-    display: contents;
+.heart .row h1{
+    margin:0px auto;
 }
 .heart p{
-    color:white;    
-    padding:30px;
-    padding-top:0px;
-    font-size:20px;
-    display: block;
-    margin:20px auto;
+    text-align: center;
+    font-size:19px;
+    line-height: 45px;
+    padding:45px;
+    margin: 0px auto;
 }
+.clients-car h2{
+    font-size:22px;
+} 
+.clients-car{
+    padding:40px;
+}
+
+}
+
