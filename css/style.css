@@ -87,11 +87,14 @@ html {
     background: transparent linear-gradient(180deg, rgba(255, 0, 35, 1) 0%, rgba(255, 0, 78, 1) 100%) 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
-.main .carousel-inner{
+
+.main .carousel-inner .carousel-item{
+    /* display: block; */
     padding:200px;
     background: url(../images/art.png);
     background-size:cover;
 }
+
 .main .carousel-inner .row{
     padding:20px;
     display: block;
@@ -508,7 +511,7 @@ footer .col-lg-4 button{
     font-family: 'Roboto';
 }
 .strategy h1{
-    padding:20px;
+    padding:10px;
     font-size:30px;
 }
 .strategy ul{
@@ -517,13 +520,12 @@ footer .col-lg-4 button{
 }
 .strategy ul .active{
     padding-bottom:8px;
-    
     border-bottom: 4px solid #FF004E;
 }
 .strategy ul a{
     padding:10px;
     color: black;
-    padding:10px 50px;
+    padding:10px 30px;
     font-size:20px;
     transition: font-size 1s;
     border-right: 1px solid grey;
@@ -636,6 +638,34 @@ footer .col-lg-4 button{
 .clients-car{
     padding:40px;
 }
-
+.form-sec{
+    padding:15px;
+}
+.form-sec .row input{
+    padding:7px 110px;
+    margin:10px;
+    border:2px solid rgb(199, 199, 199);
+    padding-left:15px;
+}
+.form-sec .row{
+    padding:10px;
+}
+.message h3{
+    font-size:16px;
+    text-align: center;
+}
+.message button{
+    margin-top:20px;
+}
+footer .row .lin{
+    margin:20px;
+    margin-top:0px;
+}
+footer .lin1{
+    margin-top:20px;
+}
+footer .cal{
+    display: none;
+}
 }
 
