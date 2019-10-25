@@ -229,6 +229,9 @@ html {
     display: block;
     margin:20px auto;
 }
+.heart .row img{
+    height:90px;
+}
 .clients-car{
     background-color:white;
     padding:60px;
