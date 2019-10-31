@@ -80,8 +80,20 @@ html {
     margin:10px 15px;
     font-size:14px;
     /* font: Medium 14px/33px Roboto; */
-
-
+}
+.navbar li a{
+    color:white;
+}
+.navbar .dropdown-menu{
+    background: black;
+    opacity: 0.9;
+    border-radius:0px;
+    padding: 20px 0px;
+}
+.navbar .dropdown-menu a{
+    font-size: 14px;
+    opacity: 1;
+    padding-top:10px;
 }
 .spec{
     background: transparent linear-gradient(180deg, rgba(255, 0, 35, 1) 0%, rgba(255, 0, 78, 1) 100%) 0% 0% no-repeat padding-box;
@@ -512,6 +524,7 @@ footer .col-lg-4 button{
 .strategy{
     padding:20px;
     font-family: 'Roboto';
+    display: contents;
 }
 .strategy h1{
     padding:10px;
@@ -564,7 +577,10 @@ footer .col-lg-4 button{
 
 /* Responsive Stuff */
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 900px){
+.strategy{
+    display: none;
+}
 
 .navbar  .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -576,7 +592,7 @@ footer .col-lg-4 button{
 .spec{
     background:none;
 }
-.main .carousel-inner{
+.main .carousel-inner .carousel-item{
     padding:70px;
     background-position: 50% ;
     padding-top:140px;
