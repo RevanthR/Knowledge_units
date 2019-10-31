@@ -516,9 +516,12 @@ footer .col-lg-4 button{
     line-height: 30px;
     word-spacing: 1px;
 }
-.m-text img{
+.m-text a{
     margin: 0px auto;
     display: block;
+    height: 20px;
+}
+.m-text a img{
     height: 20px;
 }
 .strategy{
