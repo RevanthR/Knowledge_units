@@ -128,6 +128,9 @@ html {
     margin: 0px auto;
     display: block;
 }
+.main .carousel-inner .row a:hover{
+    text-decoration: none;
+}
 .contact{
     /* padding:50px; */
     font-family: 'Roboto', sans-serif;
@@ -345,7 +348,7 @@ html {
     border-radius:50% ;
     background-color: rgba(70, 70, 70, 0.25);
 }
-/*  */
+/* FORM Section */
 .form-sec{
     background:whitesmoke;
     padding:50px;
