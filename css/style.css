@@ -492,6 +492,8 @@ footer .col-lg-4 button{
     font-family: 'Roboto';
     padding:180px;
     padding-bottom:100px;
+    background-repeat:no-repeat;
+    background-size:fill;
     background: url(../images/content_bg.png);
     background-position: 20%;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
