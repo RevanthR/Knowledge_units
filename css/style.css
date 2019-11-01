@@ -540,8 +540,9 @@ footer .col-lg-4 button{
     display: contents;
 }
 .strategy h1{
-    padding:10px;
-    font-size:30px;
+    padding:20px;
+    margin-bottom:15px; 
+    font-size:26px;
 }
 .strategy ul{
     padding:20px;
