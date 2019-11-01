@@ -163,6 +163,10 @@ html {
     box-shadow: 0px 3px 6px #00000029;
     color:white;
     padding:10px 40px;
+    transition: padding 0.5s;
+}
+.contact .col-lg-8 button:hover{
+    padding:12px 50px; 
 }
 .contact .col-lg-4{
     background: whitesmoke;
@@ -369,10 +373,17 @@ html {
 
 }
 .form-sec  input{
-    padding: 5px 220px;
+    padding: 5px 500px;
+    border: 0.5px solid rgb(194, 191, 191);
+    padding-left:10px;
+    background:none;
 }
 .form-sec textarea{
-    padding: 40px 220px;
+    padding: 40px 490px;
+    border: 0.5px solid rgb(194, 191, 191);
+    padding-top:05px;
+    padding-left:10px;
+    background:none;
 }
 .form-sec h1{
     font-size:25px;
@@ -673,7 +684,16 @@ footer .col-lg-4 button{
 .clients-car{
     padding:40px;
 }
-
+.form-sec{
+    padding:20px;
+}
+.form-sec input{
+    padding: 5px 90px;
+}
+.form-sec textarea{
+    padding: 5px 90px;
+    padding-bottom: 40px;
+}
 .message h3{
     font-size:16px;
     text-align: center;
