@@ -125,12 +125,12 @@ html {
     font-size:22px;
 }
 .main .carousel-inner .row button{
-    background: none;
-    border:2px solid white;
+    background:none;
+    border:3px solid white;
+    font-size:18px;
     color:white;
-    padding:15px 40px;
-    margin: 0px auto;
-    margin-top:50px;
+    padding:12px 40px;
+    margin: 60px auto;
     display: block;
     transition: padding .5s;
 }
