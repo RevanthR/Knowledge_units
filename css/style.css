@@ -109,12 +109,17 @@ html {
     display: block;
     
 }
+
 .main .carousel-inner .row h1{
     font-family: "Roboto";
     font-size:35px;
     margin:25px auto;
     color:white;
     text-align: center;
+}
+.main .carousel-inner .row .mh h1{
+    font-size:40px;
+    padding:36px;
 }
 
 .main .carousel-inner .row p{
