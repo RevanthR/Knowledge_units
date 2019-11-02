@@ -32,11 +32,6 @@ to   { transform: translate(0, 0px); }
     65%  { transform: translate(0px, -10px); }
     to   { transform: translate(0, 225px); }    
 }
-/* @keyframes floating3 {
-from { transform: translate(0, -10px); }
-65%  { transform: translate(0px, 225px); }
-to   { transform: translate(0, -10px); }    
-} */
 .floating2{  
     animation-name: floating2;
     animation-duration: 9s;
@@ -100,25 +95,34 @@ html {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 
-.main .carousel-inner .carousel-item{
+.main .carousel-inner .carousel-item {
     /* display: block; */
-    padding:200px;
+    padding:100px;
+    padding-top:200px;
     background: url(../images/art.png);
     background-size:cover;
+    background-repeat: no-repeat;
 }
 
 .main .carousel-inner .row{
-    padding:20px;
+    padding:0px;
     display: block;
+    
 }
 .main .carousel-inner .row h1{
-    margin:0px auto;
+    font-family: "Roboto";
+    font-size:35px;
+    margin:25px auto;
     color:white;
     text-align: center;
 }
+
 .main .carousel-inner .row p{
     color:white;
     text-align: center;
+    font-family: "Roboto";
+    padding:10px;
+    font-size:22px;
 }
 .main .carousel-inner .row button{
     background: none;
@@ -126,6 +130,7 @@ html {
     color:white;
     padding:15px 40px;
     margin: 0px auto;
+    margin-top:50px;
     display: block;
     transition: padding .5s;
 }
