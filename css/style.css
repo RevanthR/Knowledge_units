@@ -329,6 +329,12 @@ html {
     background:#FF004E;
     margin:20px auto;
     display:block;
+    font-size:16px;
+    transition: padding 0.5s;
+}
+.form-sec button:hover{
+    padding: 10px 35px;
+    font-size:17px;
 }
 /* Message line */
 .message{
