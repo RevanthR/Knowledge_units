@@ -542,6 +542,33 @@ footer .col-lg-4 button{
     padding-right:30px;
     line-height: 30px;
 }
+.strategy .dropdown .dropdown-menu ul{
+    display: block;
+    padding:10px 0px;
+}
+.strategy .dropdown .dropdown-menu ul .active{
+    border-bottom:none;
+    background: grey;
+}
+.strategy .dropdown .dropdown-menu ul li{
+    margin:20px 0px;
+
+}
+.strategy .dropdown .dropdown-menu ul a{
+    border-right: 0px solid white;
+    font-size:18px;
+    display: block;
+}
+.strategy .dropdown button{
+    margin:20px;
+    padding:10px;
+    background: #FF0023;
+    border:none;
+    border-radius:0px;
+}
+.strategy .dropdown{
+    display: none;
+}
 .strategy img{
     height:60px;
     margin-right: 20px;
@@ -669,6 +696,12 @@ footer .col-lg-4.cal{
 }
 .strategy h1{
     font-size:20px;
+}
+.strategy .pc{
+    display: none;
+}
+.strategy .dropdown{
+    display: block;
 }
 .strategy .nav-tabs li{
     margin-top:30px;
