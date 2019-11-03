@@ -576,9 +576,9 @@ footer .col-lg-4 button{
     background:none;
 }
 .main .carousel-inner .carousel-item{
-    padding:70px;
-    background-position: 50% ;
-    padding-top:140px;
+    padding:50px;
+    background-position:60% ;
+    padding-top:120px;
 }
 .main .carousel-inner .row{
     padding:10px;
@@ -591,7 +591,7 @@ footer .col-lg-4 button{
     font-size:25px;
     text-align: center;
     margin:0px;
-    padding: 55px 0px;
+    padding: 43px 0px;
 }
 .main .carousel-inner .row .mh-hide{
     display:block;
