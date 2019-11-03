@@ -244,29 +244,30 @@
     </section>
     <section class="form-sec" id="form">
         <h1>Con<span>tac</span>t Us</h1>
+        <script type="text/javascript">var submitted=false;</script>
+        <iframe name="hidden_iframe" id ="hidden_iframe" style="display: none;" onload="if(submitted){window.location='thankyou.html';}"></iframe> 
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSelCfT3zZuhtltVj7TDNl40MJc9hd_WPwsupG3zrAwub4GYtQ/formResponse" target="hidden_iframe" method="POST" onsubmit="submitted=true; " id="myForm">
         <div class="row">
-          <div class="form-group col-lg-6 offset-md-3">
+            <div class="form-group col-lg-6 offset-md-3">
                 <label for="name">Name :</label>
                 <br>
-                <input id="name" class="form-control" type="Text">
+                <input id="name" name="entry.644216507" class="form-control" type="Text">
                 <br>
                 <label for="email">Email :</label>
                 <br>
-                <input id="email" class="form-control" type="email">
+                <input id="email" class="form-control" name="entry.28759313" type="email">
                 <br>
                 <label for="Phone">Phone :</label>
                 <br>
-                <input id="Phone" class="form-control" type="Text">
+                <input id="Phone" class="form-control" name="entry.28759313" type="Text">
                 <br>
                 <label for="area" >Message :</label>
                 <br>
-                <textarea class="form-control" rows="5"></textarea>
-          </div>
+                <textarea class="form-control" rows="5" name="entry.556658489" ></textarea>
+            </div>
         </div>
-     
-            <a><button type="submit">Send Message</button></a>
-     
-          
+                <a><button type="submit">Send Message</button></a>
+        </form>
     </section>
     <section class="message">
         <div class="row">

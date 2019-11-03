@@ -427,6 +427,28 @@ footer .col-lg-4 button{
     padding:8px 20px;
 
 }
+/* Thank you Page */
+.thank{
+    padding:30px;
+}
+.thank .row img{
+    height:100px;
+    margin:0px auto;
+    display: block;
+}
+.thank .row{
+    padding:15px;
+}
+.thank .row h1{
+    color:grey;
+    font-size:25px;
+    margin:0px auto;
+    text-align: center;
+}
+.thank .row p{
+    text-align: center;
+    margin: 0px auto;
+}
 /*  Content and Studio Pages */
 .content{
     font-family: 'Roboto';
