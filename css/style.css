@@ -649,10 +649,16 @@ footer .col-lg-4 button{
 .main .carousel-inner .row{
     padding:10px;
 }
+
 .main .carousel-inner .row h1{
     font-size:20px;
     margin-bottom:20px;
     
+}
+.main .carousel-inner .row .mh h1{
+    font-size:25px;
+    text-align: center;
+    padding:51px 0px;
 }
 .main .carousel-inner .row p{
     font-size:16px;
@@ -661,6 +667,9 @@ footer .col-lg-4 button{
     margin: 10px auto;
     padding: 8px 20px;
     font-size:13px;
+}
+.contact .col-lg-4{
+    background:white;
 }
 .contact .col-lg-8{
     padding:40px;
@@ -679,7 +688,7 @@ footer .col-lg-4 button{
 }
 .contact .col-lg-4 h1{
     margin:05px auto;
-    font-size:35px;
+    font-size:30px;
     text-align: center;
 }
 .contact .col-lg-4 .col-lg-8 p{
@@ -690,6 +699,10 @@ footer .col-lg-4 button{
     display: block;
     height: 70px;
 }
+.heart .row p{
+    font-size:16px;
+    line-height: 40px;
+}
 .clients-car h2{
     font-size:22px;
 } 
@@ -699,13 +712,6 @@ footer .col-lg-4 button{
 .form-sec{
     padding:20px;
 }
-.form-sec input{
-    padding: 5px 90px;
-}
-.form-sec textarea{
-    padding: 5px 90px;
-    padding-bottom: 40px;
-}
 .message h3{
     font-size:16px;
     text-align: center;
@@ -713,15 +719,21 @@ footer .col-lg-4 button{
 .message button{
     margin-top:20px;
 }
-footer .row .lin{
-    margin:20px;
-    margin-top:0px;
+footer .col-lg-4.abt img{
+    margin:30px 10px;
 }
-footer .lin1{
-    margin-top:20px;
+footer .col-lg-4.abt p{
+    margin:0px 10px;
 }
-footer .cal{
-    display: none;
+footer .col-lg-4.lin{
+    padding-left:15px;
+    margin:0px;
+}
+footer .col-lg-8.lin1{
+    margin-top:10px;
+}
+footer .col-lg-4.cal{
+    display:none;
 }
 }
 
