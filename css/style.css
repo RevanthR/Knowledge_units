@@ -64,7 +64,9 @@ html {
     font-size:40px;
     padding:36px;
 }
-
+.main .carousel-inner .row .mh-hide{
+    display:none;
+}
 .main .carousel-inner .row p{
     color:white;
     text-align: center;
@@ -588,7 +590,11 @@ footer .col-lg-4 button{
 .main .carousel-inner .row .mh h1{
     font-size:25px;
     text-align: center;
-    padding:51px 0px;
+    margin:0px;
+    padding: 55px 0px;
+}
+.main .carousel-inner .row .mh-hide{
+    display:block;
 }
 .main .carousel-inner .row p{
     font-size:16px;
@@ -610,8 +616,6 @@ footer .col-lg-4 button{
 .contact .col-lg-4{
   padding:40px;
 }
-
-
 .heart .row p{
     font-size:16px;
     line-height: 40px;
