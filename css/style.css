@@ -662,13 +662,17 @@ footer .col-lg-4.cal{
 }
 .m-text p{
     padding:30px;
-    text-align: justify;
+    text-align: left;
 }
 .m-text a img{
     display: none;
 }
-.strategy{
-    display: none;
+.strategy h1{
+    font-size:20px;
+}
+.strategy .nav-tabs li{
+    margin-top:30px;
+    display: block;
 }
 }
 
