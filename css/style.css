@@ -5,7 +5,7 @@ html {
   scroll-behavior: smooth;
 }
 .navbar{
-    background: rgb(0,0,0,0.4);
+    background: rgb(0,0,0,1);
 }
 .navbar .navbar-brand img{
     height: 70px;
@@ -529,6 +529,10 @@ footer .col-lg-4 button{
     font-size:15px;
     line-height: 30px;
     word-spacing: 1px;
+}
+.strategy .und{
+    padding-bottom:10px;
+    border-bottom:4px solid red;
 }
 .strategy h1{
     padding:20px;
