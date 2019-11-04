@@ -46,11 +46,23 @@ to   { transform: translate(0, 0px); }
 }
 .floater{
     animation-name:floater;
+    animation-duration:1s;
+    animation-iteration-count:1;
+    animation-timing-function: ease-in-out;
+    transform: translate(0px, -10px);
+
+} 
+@keyframes floater{
+    from { transform: translate(0, 70px); }
+    60%  { transform: translate(0px, -10px); } 
+}
+.floater1{
+    animation-name:floater1;
     animation-duration:2s;
     animation-iteration-count:1;
     animation-timing-function: ease-in-out;
 } 
-@keyframes floater{
+@keyframes floater1{
     from { transform: translate(0, 220px); }
     60%  { transform: translate(0px, -10px); } 
-    }
+}
