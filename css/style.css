@@ -31,7 +31,7 @@ html {
 .navbar .dropdown-menu a{
     font-size: 14px;
     opacity: 1;
-    padding-top:10px;
+    padding-top:20px;
 }
 .navbar .spec{
     background: transparent linear-gradient(180deg, rgba(255, 0, 35, 1) 0%, rgba(255, 0, 78, 1) 100%) 0% 0% no-repeat padding-box;
