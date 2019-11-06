@@ -1,6 +1,6 @@
 #floating {  
     animation-name: floating;
-    animation-duration: 2s;
+    animation-duration: 11s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
@@ -11,7 +11,7 @@ to   { transform: translate(0, 0px); }
 }
 .floating1{  
     animation-name: floating1;
-    animation-duration: 7s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
@@ -23,7 +23,7 @@ to   { transform: translate(0, 0px); }
 
 .floating3{  
     animation-name: floating3;
-    animation-duration: 5s;
+    animation-duration: 13s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
