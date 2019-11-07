@@ -492,7 +492,10 @@ footer .col-lg-4 button{
     display: block;
     margin:40px auto;
 }
-
+.c-main .accordion .card{
+    margin:4px;
+    border-radius: 0px;
+}
 .c-main .accordion button{
     color: black;
     font-size:20px;
