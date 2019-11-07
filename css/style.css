@@ -5,7 +5,7 @@ html {
   scroll-behavior: smooth;
 }
 .navbar{
-    background: rgb(0,0,0,1);
+    background: rgb(0,0,0,0.5);
 }
 .navbar .navbar-brand img{
     height: 70px;
@@ -241,7 +241,8 @@ html {
 }
 .clients-car .carousel .img-box img{
 	width: 100%;
-	height: 100%;
+    height: 100%;
+    padding:20px;
 	display: block;
 	border-radius: 50%;
 }
@@ -612,6 +613,15 @@ footer .col-lg-4 button{
     z-index:-1;
 }
 
+.strategy a button{
+    background:#FF0023;
+    color:white;
+    margin-left:20px;
+    margin-bottom:40px;
+    padding:6px 20px;
+    border:none;
+    font-size:14px;
+}
 /* Responsive Code */
 
 @media screen and (max-width: 900px){
