@@ -31,7 +31,8 @@ html {
 .navbar .dropdown-menu a{
     font-size: 14px;
     opacity: 1;
-    padding-top:20px;
+    padding-top:10px;
+    padding-bottom: 10px;
 }
 .navbar .spec{
     background: transparent linear-gradient(180deg, rgba(255, 0, 35, 1) 0%, rgba(255, 0, 78, 1) 100%) 0% 0% no-repeat padding-box;
@@ -190,6 +191,9 @@ html {
 .heart .row .col-lg-4 span{
     display: none;
 }
+.heart .row .col-lg-4 a:hover{
+    text-decoration: none;
+}
 
 .heart .row .col-lg-4:hover #cont{
     display: contents;
@@ -296,7 +300,12 @@ html {
 }
 /* FORM Section */
 .form-sec{
-    background:whitesmoke;
+    /* background:url(../images/contact-bg.jpg); */
+    background-repeat: no-repeat;
+    background: rgb(251,251,251);
+    background: linear-gradient(0deg, rgba(251,251,251,1) 0%, rgba(242,241,240,1) 100%);
+
+    background-size:cover;
     padding: 50px 0px;
     font-family: 'Roboto';
 }
