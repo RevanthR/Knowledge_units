@@ -17,7 +17,7 @@ to   { transform: translate(0, 0px); }
 }
 @keyframes floating1 {
     from { transform: translate(0, 225px); }
-    65%  { transform: translate(0px, -10px); }
+    65%  { transform: translate(0px, 50px); }
     to   { transform: translate(0, 225px); }    
 }
 
@@ -29,7 +29,7 @@ to   { transform: translate(0, 0px); }
 }
 @keyframes floating3 {
     from { transform: translate(0, 225px); }
-    65%  { transform: translate(0px, -10px); }
+    65%  { transform: translate(0px,-10px); }
     to   { transform: translate(0, 225px); }    
 }
 .floating2{  
